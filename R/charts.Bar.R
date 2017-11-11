@@ -19,7 +19,7 @@ function (R, main = "Returns", cex.legend = 0.8, cex.main=1, ...)
     ymax = max(R, na.rm=TRUE)
     ymin = min(R, na.rm=TRUE)
     # mar: a numerical vector of the form c(bottom, left, top, right) which
-    # gives the number of lines of margin to be specified on the four sides
+    # gives the number of lines of the margin to be specified on the four sides
     # of the plot. The default is c(5, 4, 4, 2) + 0.1
 
     layout(matrix(c(1:columns), ncol = 1, byrow = TRUE), widths=1)
